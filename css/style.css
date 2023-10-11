@@ -185,6 +185,7 @@ a:focus {
     margin: 10px 15px;
 }
 .nav-link {
+    font-family: 'Young Serif', serif;
     margin-top: 40px;
 	padding-bottom: 38px;
 	padding-left: 20px !important;
@@ -198,7 +199,6 @@ a:focus {
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; transition: all .7s;}
-	.navbar .nav-item:hover .nav-link{   }
     .navbar .nav-item .dropdown-menu .dropdown-item{ 
         display: inline; 
         padding: 15px 45px;
@@ -372,12 +372,35 @@ box-shadow: 0px 8px 10px -2px rgba(0,0,0,0.5);
 .service-title{
     margin-top: 35px;
 }
-.service-title p{
+.service-title p:first-child{
     font-size: 30px;
     font-family: 'Young Serif', serif;
     font-weight: 700;
     text-align: center;
     margin-bottom: 0px;
     color: #ffffff;
-    
+
+}
+.service-title p:nth-child(2){
+    font-size: 18px;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+.service-title p:nth-child(2){
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.service-title .details{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff;
+    width: 450px;
+    margin-top: 28px;
 }
